@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" charset="UTF-8" content="width=device-width, initial-scale=1">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="./Homepage.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!--- Navbar -->
+    <header>
+        <nav>
+    <div class="nav">
+      <div class="one">
+      <ul class="horizontal-list">
+                <li id="firstpic"><img class="logo" src="./pics/logo.jpg" alt=""></li>
+        <li class="navtext">Sargam</li>
+        <li id="three"><a href="./favourite.html" style="list-style-type: none; color: white;text-decoration: none; font-weight: bolder;">Favorites</a></li>
+        </ul>
+        
+      </div>
+      
+      <div class="two">
+        <label for="toggle">&#9776;</label>
+        <input type="checkbox" id="toggle"/>
+        <div class="menu">
+            <a href="#">
+              <span  class="sp sp1 search-icon"><i  class="fa fa-search"></i></span>
+                <input type="text" size="20" placeholder="Search" class="sp search">
+                <span id="mic"class="sp search-icon"><i class="fa fa-microphone"></i></span> 
+          </a>
+          <a href="./index2.html" id="four">Favorites</a>
+            <a href="#"><span class="bell"><i class="fa fa-bell fa-lg"></i></span></a>
+          <a class="notify" href="#">Notifications</a>
+          <a class="notify" href="#">Profile
+          </a>
+          <a href="#" style="color: white;" id="profile">PROFILE</a>
+        </div>
+    </div>
+    </div>
+</nav>
+</header>
+    <!-- Navbar ends -->
+<main >
+    <div class="wrapper">
+        <div class="box1">
+            <div class="carodiv">
+                <section class="top-section">
+                    <div id="image1">
+    
+                    </div>
+                    <div id="image2">
+    
+                    </div>
+                    <div id="image3">
+    
+                    </div>
+                </section>
+            </div>
+<!------------------------------------------------ latest ------------------------------------------------>
+            <div class="latest">
+                <div class="row1">
+                    <p class="latest-text">Latest Release</p>
+                </div>
+                <div class="row2">
+                    <div class="sample1">
+                    <div class="onismcont">
+                    <img src="./pics/chain.jpg" alt="" class="onism">
+                    </div>
+                    <div class="onismlist">
+                        <ul>
+                            <li class="nameofsinger">Chainsmokers</li>
+                            <li class="date">AUG 11, 2017</li>
+                        </ul>
+                    </div>
+                    <div class="duration">
+                        <ul>
+                            <li class="threedots"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></li>
+                            <li class="timeofsong">4:44</li>
+                        </ul>
+                    </div>
+                    </div>
+                <div class="sample2">
+                    <div class="onismcont">
+                    <img src="./pics/imagine.jpg" alt="" class="onism">
+                    </div>
+                    <div class="onismlist">
+                        <ul>
+                            <li class="nameofsinger">Imagine Dragon</li>
+                            <li class="date">AUG 11, 2017</li>
+                        </ul>
+                    </div>
+                    <div class="duration">
+                        <ul>
+                            <li class="threedots"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></li>
+                            <li class="timeofsong">4:44</li>
+                        </ul>
+                    </div>
+
+                </div>
+                </div>
+                <div class="row3">
+                   <div class="sample1">
+                    <div class="onismcont">
+                    <img src="./pics/alan.jpg" alt="" class="onism">
+                    </div>
+                    <div class="onismlist">
+                        <ul>
+                            <li class="nameofsinger">Alan Walker</li>
+                            <li class="date">AUG 11, 2017</li>
+                        </ul>
+                    </div>
+                    <div class="duration">
+                        <ul>
+                            <li class="threedots"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></li>
+                            <li class="timeofsong">4:44</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="sample2">
+                    <div class="onismcont">
+                    <img src="./pics/charlie.jpg" alt="" class="onism">
+                    </div>
+                    <div class="onismlist">
+                        <ul>
+                            <li class="nameofsinger">Charlie Puth</li>
+                            <li class="date">AUG 11, 2017</li>
+                        </ul>
+                    </div>
+                    <div class="duration">
+                        <ul>
+                            <li class="threedots"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></li>
+                            <li class="timeofsong">4:44</li>
+                        </ul>
+                    </div>
+
+                </div> 
+            </div>
+        </div>
+        <!---------------------------------------- latest ends---------------------------------------->
+        <!----------------------------------------popular artist-------------------------------------->
+        <div class="popular">
+            <div class="artist">
+                <p class="p-artist">Popular Artist</p>
+            </div>
+            <div class="artist-two">
+                <div class="artist-pic">
+                    <ul>
+                        <li class="artist-img"><img src="./pics/coldplay.png" alt="">
+                        </li>
+                        <li class="artist-name">Coldplay</li>
+                    </ul>
+                </div>
+                <div class="artist-pic">
+                    <ul>
+                        <li class="artist-img"><img src="./pics/ariana.jpg" alt=""></li>
+                        <li class="artist-name">Ariana Grande</li>
+                    </ul>
+                </div>
+                <div class="artist-pic">
+                    <ul>
+                        <li class="artist-img"><img src="./pics/shawn.jpg" alt=""></li>
+                        <li class="artist-name">Shawn Mendes</li>
+                    </ul>
+                </div>
+                <div class="artist-pic">
+                    <ul>
+                        <li class="artist-img"><img src="./pics/linkin.jpg" alt=""></li>
+                        <li class="artist-name">Linkin Park</li>
+                    </ul>
+                </div>
+                <div class="artist-pic">
+                    <ul>
+                        <li class="artist-img"><img src="./pics/ed.jpg" alt=""></li>
+                        <li class="artist-name">Ed Sheeran</li>
+                    </ul>
+                </div>
+                <div class="artist-pic">
+                    <ul>
+                        <li class="artist-img"><img src="./pics/taylor.jpg" alt=""></li>
+                        <li class="artist-name">Taylor Swift</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- artist ends -->
+        <!-----------------------------------station ------------------------------------------->
+        <div class="station">
+            <div class="station-image">
+              <img src="./pics/station.jpg" alt="">  
+            </div>
+            <div class="other-stations">
+                <div class="other-st-images">
+                    <img src="./pics/heart.jpg" alt="">
+                    
+                </div>
+                <div class="other-st-images">
+                    <img src="./pics/work.jpg" alt="">
+                    
+                </div>
+                <div class="other-st-images">
+                    <img src="./pics/chill.jpg" alt="">
+                    
+                </div>
+                <div class="other-st-images">
+                    <img src="./pics/sufi.jpg" alt="">
+                    
+                </div>
+                <div class="other-st-images">
+                    <img src="./pics/retro.jpg" alt="">
+                    
+                </div>
+                <div class="other-st-images">
+                    <img src="./pics/local.png" alt="">
+                    
+                </div>
+            </div>
+        </div>
+        <!--station ends-->
+        <!----------------------------------------Road----------------------------------------------->
+        <div class="road">
+            <div class="road-trip">
+                <img class="partys" src="./pics/party.jpg" alt="">
+                
+            </div>
+            <div class="road-trip">
+                <img src="./pics/EDM.jpg" alt="">
+                
+            </div>
+            <div class="road-trip">
+                <img src="./pics/road.jpg" alt="">
+                
+            </div>
+        </div>
+        <!--road ends-->
+        <!--------------------------------------english------------------------------------------------->
+        <div class="eng-popular">
+            <div class="artist">
+                <p class="p-artist">Latest English</p>
+            </div>
+            <div class="artist-two">
+                <div class="artist-pic">
+                    <ul class="engsinger">
+                        <li class="engimg"><img src="./pics/senorita.jpg" alt=""></li>
+                        <li class="arijit">Senorita</li>
+                        <li class="arijit-time">Feb 11, 2020</li>
+                    </ul>
+                </div>
+                <div class="artist-pic">
+                    <ul class="engsinger">
+                        <li class="engimg"><img src="./pics/end.jpg" alt=""></li>
+                        <li class="arijit">End of Time</li>
+                        <li class="arijit-time">Feb 11, 2020</li>
+                    </ul>
+                </div>
+                <div class="artist-pic">
+                    <ul class="engsinger">
+                        <li class="engimg"><img src="./pics/mem.jpg" alt=""></li>
+                        <li class="arijit">Memories</li>
+                        <li class="arijit-time">Feb 11, 2020</li>
+                    </ul>
+                </div>
+                <div class="artist-pic">
+                    <ul class="engsinger">
+                        <li class="engimg"><img src="./pics/per.jpg" alt=""></li>
+                        <li class="arijit">Perfect</li>
+                        <li class="arijit-time">Feb 11, 2020</li>
+                    </ul>
+                </div>
+                <div class="artist-pic">
+                    <ul class="engsinger">
+                        <li class="engimg"><img src="./pics/more.jpg" alt=""></li>
+                        <li class="arijit">More Than You Know</li>
+                        <li class="arijit-time">Feb 11, 2020</li>
+                    </ul>
+                </div>
+                <div class="artist-pic">
+                    <ul class="engsinger">
+                        <li class="engimg"><img src="./pics/coldplay.png" alt=""></li>
+                        <li class="arijit">Coldplay</li>
+                        <li class="arijit-time">Feb 11, 2020</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- -------------------------------------english ends----------------------------->
+        <!----------------------------------------------hindi------------------------------------------>
+        <div class="eng-popular scrollb">
+            <div class="artist">
+                <p class="p-artist">Latest Hindi</p>
+            </div>
+            <div class="artist-three">
+                <div class="artist-pic">
+                    <ul class="engsinger">
+                        <li class="engimg"><img src="./pics/local.jpg" alt=""></li>
+                        <li class="arijit">Aoge Tum</li>
+                        <li class="arijit-time">Aug 15, 2017</li>
+                    </ul>
+                </div>
+                <div class="artist-pic">
+                    <ul class="engsinger">
+                        <li class="engimg"><img src="./pics/tune.jpg" alt=""></li>
+                        <li class="arijit">Tune Kaha</li>
+                        <li class="arijit-time">Aug 15, 2020</li>
+                    </ul>
+                </div>
+                <div class="artist-pic">
+                    <ul class="engsinger">
+                        <li class="engimg"><img src="./pics/kun.jpg" alt=""></li>
+                        <li class="arijit">Kun Faya</li>
+                        <li class="arijit-time">Aug 15, 2020</li>
+                    </ul>
+                </div>
+                <div class="artist-pic">
+                    <ul class="engsinger">
+                        <li class="engimg"><img src="./pics/shy.jpg" alt=""></li>
+                        <li class="arijit">Shayad</li>
+                        <li class="arijit-time">Aug 15, 2020</li>
+                    </ul>
+                </div>
+                <div class="artist-pic">
+                    <ul class="engsinger">
+                        <li class="engimg"><img src="./pics/bat.jpg" alt=""></li>
+                        <li class="arijit">Baatein Karo</li>
+                        <li class="arijit-time">Aug 15, 2020</li>
+                    </ul>
+                </div>
+                <div class="artist-pic">
+                    <ul class="engsinger">
+                        <li class="engimg"><img src="./pics/wish.jpg" alt=""></li>
+                        <li class="arijit">Wishlist</li>
+                        <li class="arijit-time">Aug 15, 2020</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!----------------------------- box2 ------------------------------->
+        <div class="box2">
+            <div class="heading">
+                <span class="capital">Queue</span>
+                    <ul class="drop">
+                    <li class="sidebars "><a href="#" style="text-decoration: none;">Queue &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i style="color: #3da038;padding-right: 20px; " class="fa fa-angle-down"></i></a>
+                    <ul class="sidelist">
+                        <li><a href="#">Playlists</a></li>
+                        <hr  style="color: black;margin-left: 10px;margin-right: 10px;">
+                        <li><a id="anctwo" href="#">Favourite Songs</a></li>
+                    </ul>
+                    </li>
+                    </ul>
+            </div>
+
+            <div class="music">
+            <div class="musicitem">
+                <div class="no">01</div>
+                <div class="sideimage"><img src="./pics/wish.jpg" alt=""></div>
+                <div>
+                    <ul id="songlist">
+                        <li class="songlistone">Wishlist</li>
+                        <li class="songlisttwo" >Dino James</li>
+                    </ul>
+                </div>
+                <div class="heart"><i style="color:white;" class="fa fa-heart"></i></div>
+            </div>
+            <div class="musicitem">
+                <div class="no">02</div>
+                <div class="sideimage"><img src="./pics/senorita.jpg" alt=""></div>
+                <div>
+                    <ul id="songlist">
+                        <li class="songlistone">Senorita</li>
+                        <li class="songlisttwo" >Shawn Mendes</li>
+                    </ul>
+                </div>
+                <div class="heart"><i style="color:white;" class="fa fa-heart"></i></div>
+            </div>
+            <div class="musicitem">
+                <div class="no">03</div>
+                <div class="sideimage"><img src="./pics/end.jpg" alt=""></div>
+                <div>
+                    <ul id="songlist">
+                        <li class="songlistone">End of Time</li>
+                        <li class="songlisttwo" >Alan Walker</li>
+                    </ul>
+                </div>
+                <div class="heart"><i style="color:white;" class="fa fa-heart"></i></div>
+            </div>
+            <div class="musicitem">
+                <div class="no">04</div>
+                <div class="sideimage"><img src="./pics/mem.jpg" alt=""></div>
+                <div>
+                    <ul id="songlist">
+                        <li class="songlistone">Memories</li>
+                        <li class="songlisttwo" >Maroon 5</li>
+                    </ul>
+                </div>
+                <div class="heart"><i style="color:white;" class="fa fa-heart"></i></div>
+            </div>
+            <div class="musicitem">
+                <div class="no">05</div>
+                <div class="sideimage"><img src="./pics/per.jpg" alt=""></div>
+                <div>
+                    <ul id="songlist">
+                        <li class="songlistone">Perfect</li>
+                        <li class="songlisttwo" >Ed Sheeran</li>
+                    </ul>
+                </div>
+                <div class="heart"><i style="color:white;" class="fa fa-heart"></i></div>
+            </div>
+            <div class="musicitem">
+                <div class="no">06</div>
+                <div class="sideimage"><img src="./pics/tune.jpg" alt=""></div>
+                <div>
+                    <ul id="songlist">
+                        <li class="songlistone">Tune Kaha</li>
+                        <li class="songlisttwo" >Prateek Kuhad</li>
+                    </ul>
+                </div>
+                <div class="heart"><i style="color:white;" class="fa fa-heart"></i></div>
+            </div>
+            <div class="musicitem">
+                <div class="no">07</div>
+                <div class="sideimage"><img src="./pics/kun.jpg" alt=""></div>
+                <div>
+                    <ul id="songlist">
+                        <li class="songlistone">Kun Faya Kun</li>
+                        <li class="songlisttwo" >A.R. Rehman</li>
+                    </ul>
+                </div>
+                <div class="heart"><i style="color:white;" class="fa fa-heart"></i></div>
+            </div>
+            <div class="musicitem">
+                <div class="no">08</div>
+                <div class="sideimage"><img src="./pics/shy.jpg" alt=""></div>
+                <div>
+                    <ul id="songlist">
+                        <li class="songlistone">Shayad</li>
+                        <li class="songlisttwo" >Arijit Singh</li>
+                    </ul>
+                </div>
+                <div class="heart"><i style="color:white;" class="fa fa-heart"></i></div>
+            </div>
+            <div class="musicitem">
+                <div class="no">09</div>
+                <div class="sideimage"><img src="./pics/bat.jpg" alt=""></div>
+                <div>
+                    <ul id="songlist">
+                        <li class="songlistone">Baatein Karo</li>
+                        <li class="songlisttwo" >Vayu</li>
+                    </ul>
+                </div>
+                <div class="heart"><i style="color:white;" class="fa fa-heart"></i></div>
+            </div>
+        <div class="musicitem">
+                <div class="no">10</div>
+                <div class="sideimage"><img src="./pics/local.jpg" alt=""></div>
+                <div>
+                    <ul id="songlist">
+                        <li class="songlistone">Aoge Tum Kabhi</li>
+                        <li class="songlisttwo" >The Local Train</li>
+                    </ul>
+                </div>
+                <div class="heart"><i style="color:white;" class="fa fa-heart"></i></div>
+            </div>
+            <div class="musicitem">
+                <div class="no">11</div>
+                <div class="sideimage"><img src="./pics/charlie.jpg" alt=""></div>
+                <div>
+                    <ul id="songlist">
+                        <li class="songlistone">Mirage</li>
+                        <li class="songlisttwo" >Else</li>
+                    </ul>
+                </div>
+                <div class="heart"><i style="color:white;" class="fa fa-heart"></i></div>
+        </div>
+        <div class="musicitem">
+                <div class="no">12</div>
+                <div class="sideimage"><img src="./pics/charlie.jpg" alt=""></div>
+                <div>
+                    <ul id="songlist">
+                        <li class="songlistone">Mirage</li>
+                        <li class="songlisttwo" >Else</li>
+                    </ul>
+                </div>
+                <div class="heart"><i style="color:white;" class="fa fa-heart"></i></div>
+            </div>
+            <div class="musicitem">
+                <div class="no">13</div>
+                <div class="sideimage"><img src="./pics/charlie.jpg" alt=""></div>
+                <div>
+                    <ul id="songlist">
+                        <li class="songlistone">Mirage</li>
+                        <li class="songlisttwo" >Else</li>
+                    </ul>
+                </div>
+                <div class="heart"><i style="color:white;" class="fa fa-heart"></i></div>
+        </div>
+        <div class="musicitem">
+                <div class="no">14</div>
+                <div class="sideimage"><img src="./pics/charlie.jpg" alt=""></div>
+                <div>
+                    <ul id="songlist">
+                        <li class="songlistone">Mirage</li>
+                        <li class="songlisttwo" >Else</li>
+                    </ul>
+                </div>
+                <div class="heart"><i style="color:white;" class="fa fa-heart"></i></div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <!--box 2 ends-->
+        </div>
+    </main>
+<!---------------------------- wrapper ends---------------------------------->
+
+<div class="end">
+        
+        <div class="singer">
+            <div class="singone">
+            <img src="./pics/alan.jpg" alt="">
+        </div>
+        <div class="singtwo">
+            <ul>
+                <li class="walkbyside">Will Stay By Your Side</li>
+                <li class="alan">Alan Walker</li>
+            </ul>
+        </div>
+
+        </div>
+        <div class="playericon" >
+            <span><i class="fa fa-heart"></i></span>
+            <span><i class="fa fa-ban"></i></span>
+            
+        </div>
+        <div class="play" >
+                <div class="playone">
+            <span class="play-one-icon">
+                <i class="fa fa-random" aria-hidden="true"></i>
+            </span>
+            <span class="play-one-icon">
+                <i class="fa fa-backward"></i>
+            </span>
+            <span class="play-one-icon">
+                <i class="fa fa-pause"></i>
+            </span>
+            <span class="play-one-icon">
+                <i class="fa fa-forward"></i>
+            </span>
+            <span class="play-one-icon">
+                <i class="fa fa-repeat"></i>
+            </span>
+        </div>
+        
+            <div class="bar">
+                
+                <div class="slidecontainer">
+                <input type="range" value="0" class="slider" id="myRange">
+                <div id="progress"></div>
+                </div>
+
+            </div>
+            
+        </div>
+        <div class="volume-opt" >
+            <div class="yeah" >
+                <i  class="fa fa-desktop"></i>
+            </div>
+            <div id="volume-bar" >
+                <div class="abc">
+                <i class="fa fa-volume-up"></i>
+                </div>
+                <div class="cde">
+                <input type="range" value="0" class="slider" id="myRange">
+                <div id="progresss"></div>
+                </div>
+            </div>
+        </div>
+</div>
+<script>
+    var progess =document.getElementById("progess");
+    var slider=document.getElementById("myRange");
+    slider.oninput=function(){
+        progress.style.width = this.value-1+"%";
+        
+    }
+
+</script>
+</body>
+</html>
+
